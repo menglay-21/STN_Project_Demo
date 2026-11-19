@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f6f8" />
+  <title>Gói thầu · Công trình</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="Trang chủ Công trình">
+        <span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M5 25V12l11-6 11 6v13h-7v-8h-8v8H5Z" />
+            <path d="M3 26h26" />
+          </svg></span>
+        <span class="brand-copy"><strong>công trình</strong><small>WORKSPACE</small></span>
+      </a>
+      <div class="workspace-label">KHÔNG GIAN LÀM VIỆC</div>
+      <nav class="nav-list" aria-label="Điều hướng chính">
+        <a class="nav-item" href="#"><span class="nav-icon">⌂</span> Tổng quan</a>
+        <div class="nav-section">NGHIỆP VỤ</div>
+        <a class="nav-item active" href="#"><span class="nav-icon">▤</span> Gói thầu <span
+            class="nav-count">8</span></a>
+        <a class="nav-item" href="ho-so-du-thau.html"><span class="nav-icon">▧</span> Hồ sơ dự thầu</a>
+        <a class="nav-item" href="trung-thau-ky-hop-dong.html"><span class="nav-icon">✎</span> Hợp đồng</a>
+        <a class="nav-item" href="chuan-bi-trien-khai.html"><span class="nav-icon">⌂</span> Triển khai công trình</a>
+        <a class="nav-item" href="thi-cong-cong-trinh.html"><span class="nav-icon">⚒</span> Thi công</a>
+        <a class="nav-item" href="nghiem-thu.html"><span class="nav-icon">✓</span> Nghiệm thu</a>
+        <a class="nav-item" href="thanh-toan-giai-doan.html"><span class="nav-icon">₫</span> Thanh toán theo giai đoạn</a><a class="nav-item" href="ban-giao-quyet-toan.html"><span class="nav-icon">▣</span> Bàn giao &amp; quyết toán</a><a class="nav-item" id="navWarranty" href="bao-hanh.html"><span class="nav-icon">◷</span> Bảo hành</a>
+        <a class="nav-item" href="thi-cong-cong-trinh.html"><span class="nav-icon">▧</span> Thi công công trình</a>
+        <a class="nav-item" href="quan-ly-vat-tu.html"><span class="nav-icon">▦</span> Vật tư &amp; kho</a>
+        <a class="nav-item" href="quan-ly-nhan-su.html"><span class="nav-icon">♧</span> Nhân sự</a>
+        <a class="nav-item" href="#"><span class="nav-icon">◷</span> Tài chính</a>
+        <div class="nav-section">HỆ THỐNG</div>
+        <a class="nav-item" href="#"><span class="nav-icon">⚙</span> Cài đặt</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="help-card"><span class="help-icon">?</span><strong>Cần hỗ trợ?</strong>
+          <p>Liên hệ quản trị viên hệ thống</p><a href="mailto:it@congtrinh.vn">Gửi yêu cầu <span>↗</span></a>
+        </div>
+        <button class="profile"><span class="avatar">NL</span><span class="profile-copy"><strong>Nguyễn Minh
+              Long</strong><small>Phòng Đấu thầu</small></span><span class="more">•••</span></button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="breadcrumbs"><span>Quy trình</span><span class="crumb-sep">/</span><strong>Gói thầu</strong></div>
+        <div class="top-actions"><button class="icon-button" aria-label="Tìm kiếm">⌕</button><button
+            class="icon-button notification" aria-label="Thông báo">♧<i></i></button><span
+            class="top-divider"></span><span class="top-date">Thứ Tư, 18 tháng 11, 2026</span></div>
+      </header>
+
+      <section class="page-wrap">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> ĐẤU THẦU &amp; PHÁT TRIỂN DỰ ÁN</div>
+            <h1>Tìm kiếm và tham gia gói thầu</h1>
+            <p class="page-subtitle">Theo dõi cơ hội, đánh giá năng lực và trình phê duyệt tham gia.</p>
+          </div>
+          <button class="button button-primary" id="addTender"><span class="button-plus">＋</span> Thêm gói thầu</button>
+        </div>
+
+        <div class="metrics-grid">
+          <article class="metric-card">
+            <div class="metric-top"><span>Tổng gói thầu</span><span class="metric-icon indigo">▤</span></div>
+            <div class="metric-number" id="metricTotal">08</div>
+            <div class="metric-foot"><span class="metric-neutral">Trong năm 2026</span></div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-top"><span>Đang đánh giá</span><span class="metric-icon amber">◷</span></div>
+            <div class="metric-number">03</div>
+            <div class="metric-foot"><span class="metric-dot amber-dot"></span><span>Cần hoàn tất đánh giá</span></div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-top"><span>Chờ phê duyệt</span><span class="metric-icon blue">⇧</span></div>
+            <div class="metric-number">02</div>
+            <div class="metric-foot"><span class="metric-dot blue-dot"></span><span>Đã gửi Ban Giám đốc</span></div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-top"><span>Đã được duyệt</span><span class="metric-icon green">✓</span></div>
+            <div class="metric-number">02</div>
+            <div class="metric-foot"><span class="metric-dot green-dot"></span><span>Sẵn sàng lập hồ sơ dự thầu</span>
+            </div>
+          </article>
+        </div>
+
+        <section class="content-card">
+          <div class="table-heading">
+            <div>
+              <h2>Danh sách cơ hội</h2>
+              <p>Quản lý và theo dõi các gói thầu tiềm năng của công ty.</p>
+            </div><button class="button button-outline" id="exportBtn"><span class="export-icon">⇩</span> Xuất danh
+              sách</button>
+          </div>
+          <div class="toolbar">
+            <label class="search-box"><span>⌕</span><input id="searchInput" type="search"
+                placeholder="Tìm theo tên, mã gói thầu..." autocomplete="off" /></label>
+            <label class="select-wrap"><span class="sr-only">Lọc theo trạng thái</span><select id="statusFilter">
+                <option value="all">Tất cả trạng thái</option>
+                <option value="new">Mới tiếp nhận</option>
+                <option value="review">Đang đánh giá</option>
+                <option value="approval">Chờ phê duyệt</option>
+                <option value="approved">Đã phê duyệt</option>
+                <option value="rejected">Không tham gia</option>
+              </select><span class="select-chevron">⌄</span></label>
+            <label class="select-wrap"><span class="sr-only">Lọc theo lĩnh vực</span><select id="sectorFilter">
+                <option value="all">Tất cả lĩnh vực</option>
+                <option value="Dân dụng">Dân dụng</option>
+                <option value="Giao thông">Giao thông</option>
+                <option value="Hạ tầng">Hạ tầng</option>
+                <option value="MEP">MEP</option>
+              </select><span class="select-chevron">⌄</span></label>
+            <button class="filter-button" id="clearFilters" title="Xóa bộ lọc">↺</button>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th class="check-col"><input type="checkbox" aria-label="Chọn tất cả" /></th>
+                  <th>MÃ / TÊN GÓI THẦU</th>
+                  <th>CHỦ ĐẦU TƯ</th>
+                  <th>LĨNH VỰC</th>
+                  <th>GIÁ TRỊ DỰ KIẾN</th>
+                  <th>HẠN NỘP HỒ SƠ</th>
+                  <th>TRẠNG THÁI</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="tenderRows"></tbody>
+            </table>
+          </div>
+          <div class="empty-state" id="emptyState" hidden>
+            <div class="empty-icon">⌕</div><strong>Không tìm thấy gói thầu phù hợp</strong><span>Thử đổi từ khóa hoặc bộ
+              lọc để xem kết quả.</span><button id="emptyClear">Xóa bộ lọc</button>
+          </div>
+          <footer class="table-footer"><span id="resultCount">Hiển thị 8 trên 8 gói thầu</span>
+            <div class="pagination"><button disabled aria-label="Trang trước">‹</button><button
+                class="current-page">1</button><button aria-label="Trang 2">2</button><button
+                aria-label="Trang sau">›</button></div>
+          </footer>
+        </section>
+        <div class="page-note"><span class="note-check">✓</span> Dữ liệu được cập nhật lần cuối lúc 09:42 hôm nay <span
+            class="note-separator">·</span> <a href="#">Lịch sử hoạt động</a></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="detail-drawer" id="detailDrawer" aria-label="Chi tiết gói thầu" aria-hidden="true">
+    <div class="drawer-header"><span class="drawer-kicker">CHI TIẾT CƠ HỘI</span><button id="closeDrawer"
+        class="close-button" aria-label="Đóng">×</button></div>
+    <div id="drawerContent"></div>
+  </aside>
+  <div class="modal-backdrop" id="modalBackdrop">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-heading">
+        <div><span class="drawer-kicker">KHỞI TẠO HỒ SƠ</span>
+          <h2 id="modalTitle">Thêm gói thầu mới</h2>
+          <p>Ghi nhận cơ hội và bắt đầu quá trình đánh giá.</p>
+        </div><button class="close-button" id="closeModal" aria-label="Đóng">×</button>
+      </div>
+      <form id="tenderForm"><label>Tên gói thầu <span>*</span><input name="name" required
+            placeholder="Ví dụ: Xây dựng khối nhà điều hành" /></label>
+        <div class="form-row"><label>Chủ đầu tư <span>*</span><input name="client" required
+              placeholder="Tên chủ đầu tư" /></label><label>Lĩnh vực<select name="sector">
+              <option>Dân dụng</option>
+              <option>Giao thông</option>
+              <option>Hạ tầng</option>
+              <option>MEP</option>
+            </select></label></div>
+        <div class="form-row"><label>Giá trị dự kiến<input name="value" placeholder="Ví dụ: 12,500,000,000"
+              inputmode="numeric" /></label><label>Hạn nộp hồ sơ<input name="deadline" type="date" /></label></div>
+        <label>Nguồn thông tin<select name="source">
+            <option>Thông báo mời thầu</option>
+            <option>Email mời thầu</option>
+            <option>Đối tác giới thiệu</option>
+            <option>Nguồn khác</option>
+          </select></label>
+        <div class="modal-actions"><button type="button" class="button button-outline"
+            id="cancelModal">Hủy</button><button type="submit" class="button button-primary">Tạo hồ sơ gói thầu
+            <span>→</span></button></div>
+      </form>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>

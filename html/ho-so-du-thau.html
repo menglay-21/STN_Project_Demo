@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f6f8" />
+  <title>Lập hồ sơ dự thầu · Công trình</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body data-page="bid-preparation">
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="index.html" aria-label="Trang chủ Công trình"><span class="brand-mark"><svg
+            viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M5 25V12l11-6 11 6v13h-7v-8h-8v8H5Z" />
+            <path d="M3 26h26" />
+          </svg></span><span class="brand-copy"><strong>công trình</strong><small>WORKSPACE</small></span></a>
+      <div class="workspace-label">KHÔNG GIAN LÀM VIỆC</div>
+      <nav class="nav-list" aria-label="Điều hướng chính">
+        <a class="nav-item" href="index.html"><span class="nav-icon">⌂</span> Tổng quan</a>
+        <div class="nav-section">NGHIỆP VỤ</div>
+        <a class="nav-item" href="index.html"><span class="nav-icon">▤</span> Gói thầu <span
+            class="nav-count">8</span></a>
+        <a class="nav-item active" id="navBidPreparation" href="ho-so-du-thau.html" aria-current="page"><span
+            class="nav-icon">▧</span> Hồ sơ dự thầu</a>
+        <a class="nav-item" href="trung-thau-ky-hop-dong.html"><span class="nav-icon">✎</span> Hợp đồng</a>
+        <a class="nav-item" href="chuan-bi-trien-khai.html"><span class="nav-icon">⌂</span> Triển khai công trình</a>
+        <a class="nav-item" href="thi-cong-cong-trinh.html"><span class="nav-icon">⚒</span> Thi công</a>
+        <a class="nav-item" href="nghiem-thu.html"><span class="nav-icon">✓</span> Nghiệm thu</a>
+        <a class="nav-item" href="thanh-toan-giai-doan.html"><span class="nav-icon">₫</span> Thanh toán theo giai đoạn</a><a class="nav-item" href="ban-giao-quyet-toan.html"><span class="nav-icon">▣</span> Bàn giao &amp; quyết toán</a><a class="nav-item" id="navWarranty" href="bao-hanh.html"><span class="nav-icon">◷</span> Bảo hành</a>
+        <a class="nav-item" href="thi-cong-cong-trinh.html"><span class="nav-icon">▧</span> Thi công công trình</a><a class="nav-item" href="quan-ly-vat-tu.html"><span
+            class="nav-icon">▦</span> Vật tư &amp; kho</a><a class="nav-item" href="#"><span class="nav-icon">♧</span>
+          Nhân sự</a><a class="nav-item" href="#"><span class="nav-icon">◷</span> Tài chính</a>
+        <div class="nav-section">HỆ THỐNG</div><a class="nav-item" href="#"><span class="nav-icon">⚙</span> Cài đặt</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="help-card"><span class="help-icon">?</span><strong>Cần hỗ trợ?</strong>
+          <p>Liên hệ quản trị viên hệ thống</p><a href="mailto:it@congtrinh.vn">Gửi yêu cầu <span>↗</span></a>
+        </div><button class="profile"><span class="avatar">NL</span><span class="profile-copy"><strong>Nguyễn Minh
+              Long</strong><small>Phòng Đấu thầu</small></span><span class="more">•••</span></button>
+      </div>
+    </aside>
+    <main class="main-content" id="bidWorkspace" data-workspace="bid-file" data-tender-id="TB-2026-002">
+      <header class="topbar">
+        <div class="breadcrumbs"><a href="index.html" style="color:inherit;text-decoration:none">Gói thầu</a><span
+            class="crumb-sep">/</span><strong>Lập hồ sơ dự thầu</strong></div>
+        <div class="top-actions"><button class="icon-button" aria-label="Tìm kiếm">⌕</button><button
+            class="icon-button notification" aria-label="Thông báo">♧<i></i></button><span
+            class="top-divider"></span><span class="top-date">Thứ Tư, 18 tháng 11, 2026</span></div>
+      </header>
+      <section class="page-wrap bid-page">
+        <div class="page-heading bid-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> CHUẨN BỊ HỒ SƠ DỰ THẦU</div>
+            <h1>Lập hồ sơ dự thầu</h1>
+            <p class="page-subtitle">Tập hợp tài liệu, phối hợp liên phòng ban và hoàn thiện hồ sơ đúng hạn.</p>
+            <div class="bid-context"><strong id="tenderCode">TB-2026-002</strong><span
+                class="bid-context-sep">·</span><span id="tenderName">Hạ tầng kỹ thuật khu tái định cư phường Hà
+                Khẩu</span></div>
+          </div>
+          <div class="bid-header-actions"><span class="bid-status" id="bidStatus" data-status="preparing">Đang chuẩn
+              bị</span><button class="button button-outline" id="bidMoreActions">•••</button></div>
+        </div>
+
+        <section class="bid-progress-card" id="bidProgress" data-progress="0">
+          <div class="bid-progress-top">
+            <div class="bid-progress-copy"><strong>Tiến độ hoàn thiện hồ sơ</strong><span id="bidProgressText">0 / 11
+                tài liệu đã sẵn sàng</span></div><span class="bid-progress-value" id="bidProgressPercent">0%</span>
+          </div>
+          <div class="bid-progress-track" role="progressbar" aria-label="Tiến độ hồ sơ dự thầu" aria-valuemin="0"
+            aria-valuemax="100" aria-valuenow="0">
+            <div class="bid-progress-bar" id="bidProgressBar"></div>
+          </div>
+          <div class="bid-steps" id="bidWorkflowSteps">
+            <div class="bid-step-indicator current" data-workflow-step="legal"><span class="bid-step-num">1</span>Hồ sơ
+              pháp lý</div>
+            <div class="bid-step-indicator" data-workflow-step="technical"><span class="bid-step-num">2</span>Biện pháp
+              &amp; tiến độ</div>
+            <div class="bid-step-indicator" data-workflow-step="pricing"><span class="bid-step-num">3</span>Khối lượng
+              &amp; giá</div>
+            <div class="bid-step-indicator" data-workflow-step="capacity"><span class="bid-step-num">4</span>Năng lực
+              nhân sự</div>
+            <div class="bid-step-indicator" data-workflow-step="submission"><span class="bid-step-num">5</span>Rà soát
+              &amp; nộp</div>
+          </div>
+        </section>
+
+        <div class="bid-layout">
+          <div class="bid-workspace" id="bidSections">
+            <section class="bid-section-card" data-workflow-step="legal" data-section-id="legal-documents">
+              <header class="bid-section-head"><span class="bid-section-icon">▤</span>
+                <div class="bid-section-title">
+                  <h2>Hồ sơ pháp lý</h2>
+                  <p>Phòng Đấu thầu phối hợp Kế toán</p>
+                </div><span class="bid-section-count" data-section-count="legal-documents">0 / 3 hoàn tất</span>
+              </header>
+              <div class="bid-doc-list">
+                <div class="bid-doc-row" data-document-id="business-license"><input class="bid-doc-check"
+                    id="docBusinessLicense" data-document-key="business-license" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docBusinessLicense">Giấy chứng nhận đăng ký
+                      doanh nghiệp</label><span class="bid-doc-meta">Bản scan còn hiệu lực · Phòng Đấu thầu</span></div>
+                  <span class="bid-doc-status" data-document-status>Chưa đính kèm</span><button class="bid-upload"
+                    type="button" data-upload-for="business-license">＋ Tải tệp</button><input class="bid-file-input"
+                    type="file" id="fileBusinessLicense" data-file-input="business-license" />
+                </div>
+                <div class="bid-doc-row" data-document-id="financial-statements"><input class="bid-doc-check"
+                    id="docFinancialStatements" data-document-key="financial-statements" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docFinancialStatements">Báo cáo tài chính 3
+                      năm gần nhất</label><span class="bid-doc-meta">Đã kiểm toán hoặc xác nhận · Kế toán</span></div>
+                  <span class="bid-doc-status" data-document-status>Chưa đính kèm</span><button class="bid-upload"
+                    type="button" data-upload-for="financial-statements">＋ Tải tệp</button><input class="bid-file-input"
+                    type="file" id="fileFinancialStatements" data-file-input="financial-statements" />
+                </div>
+                <div class="bid-doc-row" data-document-id="capacity-certificate"><input class="bid-doc-check"
+                    id="docCapacityCertificate" data-document-key="capacity-certificate" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docCapacityCertificate">Chứng chỉ năng lực
+                      hoạt động xây dựng</label><span class="bid-doc-meta">Đúng lĩnh vực và hạng công trình · Phòng Đấu
+                      thầu</span></div><span class="bid-doc-status" data-document-status>Chưa đính kèm</span><button
+                    class="bid-upload" type="button" data-upload-for="capacity-certificate">＋ Tải tệp</button><input
+                    class="bid-file-input" type="file" id="fileCapacityCertificate"
+                    data-file-input="capacity-certificate" />
+                </div>
+              </div>
+            </section>
+
+            <section class="bid-section-card" data-workflow-step="technical" data-section-id="technical-plan">
+              <header class="bid-section-head"><span class="bid-section-icon">⌂</span>
+                <div class="bid-section-title">
+                  <h2>Biện pháp thi công &amp; tiến độ</h2>
+                  <p>Phòng Thi công chuẩn bị nội dung kỹ thuật và an toàn</p>
+                </div><span class="bid-section-count" data-section-count="technical-plan">0 / 2 hoàn tất</span>
+              </header>
+              <div class="bid-doc-list">
+                <div class="bid-doc-row" data-document-id="construction-method"><input class="bid-doc-check"
+                    id="docConstructionMethod" data-document-key="construction-method" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docConstructionMethod">Thuyết minh biện
+                      pháp thi công</label><span class="bid-doc-meta">Kỹ thuật, an toàn lao động và môi trường · Phòng
+                      Thi công</span></div><span class="bid-doc-status" data-document-status>Chưa đính kèm</span><button
+                    class="bid-upload" type="button" data-upload-for="construction-method">＋ Tải tệp</button><input
+                    class="bid-file-input" type="file" id="fileConstructionMethod"
+                    data-file-input="construction-method" />
+                </div>
+                <div class="bid-doc-row" data-document-id="bid-schedule"><input class="bid-doc-check"
+                    id="docBidSchedule" data-document-key="bid-schedule" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docBidSchedule">Tiến độ thi công dự kiến
+                      (sơ đồ Gantt)</label><span class="bid-doc-meta">Phù hợp thời hạn trong HSMT · Phòng Thi
+                      công</span></div><span class="bid-doc-status" data-document-status>Chưa đính kèm</span><button
+                    class="bid-upload" type="button" data-upload-for="bid-schedule">＋ Tải tệp</button><input
+                    class="bid-file-input" type="file" id="fileBidSchedule" data-file-input="bid-schedule" />
+                </div>
+              </div>
+            </section>
+
+            <section class="bid-section-card" data-workflow-step="pricing" data-section-id="quantity-pricing">
+              <header class="bid-section-head"><span class="bid-section-icon">▦</span>
+                <div class="bid-section-title">
+                  <h2>Khối lượng &amp; giá dự thầu</h2>
+                  <p>Phòng Vật tư phối hợp Kế toán và Thi công</p>
+                </div><span class="bid-section-count" data-section-count="quantity-pricing">0 / 3 hoàn tất</span>
+              </header>
+              <div class="bid-doc-list">
+                <div class="bid-doc-row" data-document-id="quantity-takeoff"><input class="bid-doc-check"
+                    id="docQuantityTakeoff" data-document-key="quantity-takeoff" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docQuantityTakeoff">Bảng bóc tách khối
+                      lượng dự thầu</label><span class="bid-doc-meta">Đối chiếu bản vẽ thiết kế và khối lượng mời thầu ·
+                      Vật tư / Kỹ thuật</span></div><span class="bid-doc-status" data-document-status>Chưa đính
+                    kèm</span><button class="bid-upload" type="button" data-upload-for="quantity-takeoff">＋ Tải
+                    tệp</button><input class="bid-file-input" type="file" id="fileQuantityTakeoff"
+                    data-file-input="quantity-takeoff" />
+                </div>
+                <div class="bid-doc-row" data-document-id="supplier-quotes"><input class="bid-doc-check"
+                    id="docSupplierQuotes" data-document-key="supplier-quotes" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docSupplierQuotes">Báo giá nhà cung cấp /
+                      đội thi công</label><span class="bid-doc-meta">Vật tư chính, nhân công, XD, MEP, thiết bị · Phòng
+                      Vật tư</span></div><span class="bid-doc-status" data-document-status>Chưa đính kèm</span><button
+                    class="bid-upload" type="button" data-upload-for="supplier-quotes">＋ Tải tệp</button><input
+                    class="bid-file-input" type="file" id="fileSupplierQuotes" data-file-input="supplier-quotes" />
+                </div>
+                <div class="bid-doc-row" data-document-id="bid-price"><input class="bid-doc-check" id="docBidPrice"
+                    data-document-key="bid-price" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docBidPrice">Bảng đơn giá &amp; giá dự
+                      thầu</label><span class="bid-doc-meta">Tổng hợp chi phí và rà soát biên lợi nhuận · Kế toán</span>
+                  </div><span class="bid-doc-status" data-document-status>Chưa đính kèm</span><button class="bid-upload"
+                    type="button" data-upload-for="bid-price">＋ Tải tệp</button><input class="bid-file-input"
+                    type="file" id="fileBidPrice" data-file-input="bid-price" />
+                </div>
+              </div>
+            </section>
+
+            <section class="bid-section-card" data-workflow-step="capacity" data-section-id="personnel-capacity">
+              <header class="bid-section-head"><span class="bid-section-icon">♧</span>
+                <div class="bid-section-title">
+                  <h2>Năng lực nhân sự chủ chốt</h2>
+                  <p>Phòng Nhân sự chuẩn bị hồ sơ nhân sự theo yêu cầu HSMT</p>
+                </div><span class="bid-section-count" data-section-count="personnel-capacity">0 / 2 hoàn tất</span>
+              </header>
+              <div class="bid-doc-list">
+                <div class="bid-doc-row" data-document-id="key-personnel"><input class="bid-doc-check"
+                    id="docKeyPersonnel" data-document-key="key-personnel" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docKeyPersonnel">Danh sách nhân sự chủ chốt
+                      &amp; CV</label><span class="bid-doc-meta">Chỉ huy trưởng, kỹ sư, cán bộ an toàn · Phòng Nhân
+                      sự</span></div><span class="bid-doc-status" data-document-status>Chưa đính kèm</span><button
+                    class="bid-upload" type="button" data-upload-for="key-personnel">＋ Tải tệp</button><input
+                    class="bid-file-input" type="file" id="fileKeyPersonnel" data-file-input="key-personnel" />
+                </div>
+                <div class="bid-doc-row" data-document-id="professional-certificates"><input class="bid-doc-check"
+                    id="docProfessionalCertificates" data-document-key="professional-certificates" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docProfessionalCertificates">Chứng chỉ
+                      chuyên môn còn hiệu lực</label><span class="bid-doc-meta">Đúng vai trò và yêu cầu hồ sơ mời thầu ·
+                      Phòng Nhân sự</span></div><span class="bid-doc-status" data-document-status>Chưa đính
+                    kèm</span><button class="bid-upload" type="button" data-upload-for="professional-certificates">＋ Tải
+                    tệp</button><input class="bid-file-input" type="file" id="fileProfessionalCertificates"
+                    data-file-input="professional-certificates" />
+                </div>
+              </div>
+            </section>
+
+            <section class="bid-section-card" data-workflow-step="submission" data-section-id="review-submission">
+              <header class="bid-section-head"><span class="bid-section-icon">✓</span>
+                <div class="bid-section-title">
+                  <h2>Kiểm tra chéo &amp; nộp hồ sơ</h2>
+                  <p>Phòng Đấu thầu tổng hợp và kiểm tra trước khi nộp</p>
+                </div><span class="bid-section-count" data-section-count="review-submission">0 / 1 hoàn tất</span>
+              </header>
+              <div class="bid-doc-list">
+                <div class="bid-doc-row" data-document-id="final-check"><input class="bid-doc-check" id="docFinalCheck"
+                    data-document-key="final-check" type="checkbox" />
+                  <div class="bid-doc-info"><label class="bid-doc-name" for="docFinalCheck">Kiểm tra chéo thành phần và
+                      điều kiện HSMT</label><span class="bid-doc-meta">Kiểm tra chữ ký, biểu mẫu, tính thống nhất và
+                      hiệu lực tài liệu</span></div><span class="bid-doc-status" data-document-status>Chưa hoàn
+                    tất</span>
+                </div>
+                <div class="bid-doc-row" data-document-id="submission-receipt"><span class="bid-step-icon"
+                    aria-hidden="true">↳</span>
+                  <div class="bid-doc-info"><span class="bid-doc-name">Biên nhận nộp hồ sơ dự thầu</span><span
+                      class="bid-doc-meta">Đính kèm sau khi nộp trực tiếp hoặc qua mạng đấu thầu</span></div><span
+                    class="bid-doc-status" data-document-status>Chưa nộp</span><button class="bid-upload" type="button"
+                    data-upload-for="submission-receipt" disabled>＋ Tải tệp</button><input class="bid-file-input"
+                    type="file" id="fileSubmissionReceipt" data-file-input="submission-receipt" />
+                </div>
+              </div>
+            </section>
+            <div class="bid-submission-card" id="submissionPanel" data-action="submit-bid-file">
+              <div><strong>Hồ sơ được nộp sau khi hoàn tất kiểm tra</strong>
+                <p id="submissionHint">Cần hoàn thành các tài liệu bắt buộc và kiểm tra chéo trước khi ghi nhận nộp.</p>
+              </div><button class="button button-primary" id="submitBidFile" type="button" disabled>Nộp hồ sơ
+                <span>→</span></button>
+            </div>
+          </div>
+
+          <aside class="bid-sidebar" aria-label="Thông tin gói thầu">
+            <section class="bid-side-card" id="tenderSummary" data-tender-summary="TB-2026-002">
+              <h3>Thông tin gói thầu</h3>
+              <div class="bid-info-list">
+                <div class="bid-info-row"><span>Chủ đầu tư</span><strong id="tenderClient">UBND TP Hạ Long</strong>
+                </div>
+                <div class="bid-info-row"><span>Lĩnh vực</span><strong id="tenderSector">Hạ tầng</strong></div>
+                <div class="bid-info-row"><span>Giá trị dự kiến</span><strong id="tenderValue">39,5 tỷ đồng</strong>
+                </div>
+                <div class="bid-info-row"><span>Địa điểm</span><strong id="tenderLocation">Quảng Ninh</strong></div>
+                <div class="bid-info-row"><span>Hạn nộp hồ sơ</span><strong id="tenderDeadline">08/12/2026 · Còn 20
+                    ngày</strong></div>
+                <div class="bid-info-row"><span>Phụ trách</span><strong id="tenderOwner">Lê Thu Hà</strong></div>
+              </div>
+              <div class="bid-alert" id="deadlineAlert"><strong>Hạn nộp còn 20 ngày</strong>Ưu tiên hoàn tất báo giá và
+                kiểm tra chéo hồ sơ trước hạn nộp.</div>
+            </section>
+            <section class="bid-side-card" id="bidTeam" data-team-id="TB-2026-002">
+              <h3>Phối hợp thực hiện</h3>
+              <div class="bid-team-row" data-department="bidding"><span class="bid-team-avatar">ĐT</span><span
+                  class="bid-team-copy"><strong>Phòng Đấu thầu</strong><small>Điều phối hồ sơ</small></span></div>
+              <div class="bid-team-row" data-department="construction"><span class="bid-team-avatar">TC</span><span
+                  class="bid-team-copy"><strong>Phòng Thi công</strong><small>Biện pháp &amp; tiến độ</small></span>
+              </div>
+              <div class="bid-team-row" data-department="materials"><span class="bid-team-avatar">VT</span><span
+                  class="bid-team-copy"><strong>Phòng Vật tư</strong><small>Khối lượng &amp; báo giá</small></span>
+              </div>
+              <div class="bid-team-row" data-department="accounting"><span class="bid-team-avatar">KT</span><span
+                  class="bid-team-copy"><strong>Phòng Kế toán</strong><small>Giá dự thầu &amp; pháp lý</small></span>
+              </div>
+              <div class="bid-team-row" data-department="hr"><span class="bid-team-avatar">NS</span><span
+                  class="bid-team-copy"><strong>Phòng Nhân sự</strong><small>Hồ sơ nhân sự chủ chốt</small></span></div>
+            </section>
+            <section class="bid-side-card" id="bidActivity">
+              <h3>Hoạt động gần đây</h3>
+              <div class="bid-info-row"><span>Hồ sơ được khởi tạo</span><strong>Hôm nay, 09:42</strong></div>
+              <div class="bid-form-note">Các cập nhật tài liệu và người thực hiện sẽ hiển thị tại đây.</div>
+            </section>
+          </aside>
+        </div>
+        <div class="bid-save-row"><button class="button button-outline" id="saveBidDraft" type="button">Lưu tiến
+            độ</button><button class="button button-primary" id="requestReview" type="button">Yêu cầu kiểm tra chéo
+            <span>→</span></button></div>
+        <p class="bid-footer-note">Tài liệu tải lên trong prototype chỉ được chọn trên trình duyệt và chưa lưu lên máy
+          chủ. <a href="index.html">Quay lại danh sách gói thầu</a></p>
+      </section>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="../js/ho-so-du-thau.js"></script>
+</body>
+
+</html>
